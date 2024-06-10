@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form for ordering pizza</title>
+
+    <link rel="stylesheet" href="styles.css"
+    
+</head>
+<body>
+    <header>
+        <strong>
+            <h1>Fresh Refreshing Pizzas</h1>
+        </strong>
+    </header>
+    <main>
+            <fieldset>
+                <legend>Customer Information</legend>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" placeholder="Enter your name here...">
+                </div>
+                <div>
+                    <label for="phone">Phone:</label>
+                    <input type="tel" placeholder="Type your mobile number here...">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" placeholder="Give your email address here...">
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Order Details</legend>
+                <div>
+                    <label for="num_pizzas">Number of Pizzas:</label>
+                    <input type="number" >
+                </div>
+                <div>
+                    <label for="size">Size:</label>
+                    <input type="text" placeholder="Number of slices...">
+                </div>
+                <div>
+                    <label>Shape:</label>
+                    <input type="radio" id="round" name="shape" value="round">
+                    <label for="round">Round</label>
+                    <input type="radio" id="square" name="shape" value="square">
+                    <label for="square">Square</label>
+                </div>
+                <div>
+                    <label>Crust:</label>
+                    <input type="radio" id="thin" name="crust" value="thin" checked>
+                    <label for="thin">Thin</label>
+                    <input type="radio" id="deep" name="crust" value="deep">
+                    <label for="deep">Deep Dish</label>
+                    <input type="radio" id="gluten_free" name="crust" value="gluten_free">
+                    <label for="gluten_free">Gluten-Free</label>
+                </div>
+                <div>
+                    <label>Toppings:</label>
+                    <input type="checkbox" id="pepperoni" name="toppings" value="pepperoni">
+                    <label for="pepperoni">Pepperoni</label>
+                    <input type="checkbox" id="mushrooms" name="toppings" value="mushrooms">
+                    <label for="mushrooms">Mushrooms</label>
+                    <input type="checkbox" id="onions" name="toppings" value="onions">
+                    <label for="onions">Onions</label>
+                    <input type="checkbox" id="sausage" name="toppings" value="sausage">
+                    <label for="sausage">Sausage</label>
+                    <input type="checkbox" id="bacon" name="toppings" value="bacon">
+                    <label for="bacon">Bacon</label>
+                    <input type="checkbox" id="extra_cheese" name="toppings" value="extra_cheese">
+                    <label for="extra_cheese">Extra Cheese</label>
+                    <input type="checkbox" id="black_olives" name="toppings" value="black_olives">
+                    <label for="black_olives">Black Olives</label>
+                    <input type="checkbox" id="green_peppers" name="toppings" value="green_peppers">
+                    <label for="green_peppers">Green Peppers</label>
+                    <input type="checkbox" id="pineapple" name="toppings" value="pineapple">
+                    <label for="pineapple">Pineapple</label>
+                    <input type="checkbox" id="spinach" name="toppings" value="spinach">
+                    <label for="spinach">Spinach</label>
+                </div>
+                <div>
+                    <label for="comments">Additional Comments:</label>
+                    <textarea rows="4" cols="50" placeholder="Give additional details"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Pickup or Delivery</legend>
+                <div>
+                    <input type="radio" id="takeout" name="service" value="takeout" checked>
+                    <label for="takeout">Take Out</label>
+                    <input type="radio" id="delivery" name="service" value="delivery">
+                    <label for="delivery">Delivery</label>
+                    <input type="radio" id="eat_in" name="service" value="eat_in">
+                    <label for="eat_in">Eat In</label>
+                </div>
+            </fieldset>
+
+            <div>
+                <button type="submit">Submit Order</button>
+                <button type="reset">Reset Form</button>
+            </div>
+
+          <div class="img-container">
+            <img src="download2.jpg" alt="Delicious pizza" width="400">
+            </div>
+    </main>
+    <footer>
+        <p><i>This site is protected by reCAPTCHA and the Google Privacy Policy and Terms of Service apply.</i></p>
+    </footer>
+</body>
+</html>

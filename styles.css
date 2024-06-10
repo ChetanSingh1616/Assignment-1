@@ -1,0 +1,11 @@
+img{display: block;
+    margin: auto;}
+p{text-align: center;}
+body{
+    background-color: rgb(249, 255, 196);
+}
+h1{
+    text-align: center;
+    color: red;
+    
+}
